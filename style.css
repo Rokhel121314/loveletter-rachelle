@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Caveat", cursive;
+}
+
+.letter-background {
+  background-image: url("./Loveletter/IMG_20230213_135447.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.letter-container {
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  text-align: justify;
+  margin: 0px auto;
+}
+
+.letter-header {
+  text-align: center;
+}
+
+.letter-content {
+  font-size: 1.7rem;
+  text-shadow: 2px 2px #9d9c9c;
+  padding: 0 20px;
+}
+
+.letter-img-container {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.letter-image {
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 2rem;
+}
